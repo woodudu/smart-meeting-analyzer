@@ -23,7 +23,7 @@
 - FastAPI · WebSocket 기반 웹 인터페이스와 SQLite 회의 이력 저장
 
 ## 4. 시스템 구성도
-![alt text](image.png)
+<img width="470" height="112" alt="image" src="https://github.com/user-attachments/assets/28c0325a-10f6-4964-ba05-01fc9f4cedec" />
 
 ## 5. 기술 스택
 | 구분 | 내용 |
