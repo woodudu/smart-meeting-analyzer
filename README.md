@@ -48,35 +48,16 @@
 | 병렬처리 효과 | 처리시간 약 100초 단축 |
 | VAD 적용 효과 | 화자 분리 성능 약 13% → 약 68% |
 
-## 8. 설치 방법
-> 아래는 예시입니다. 실제 환경에 맞게 수정하세요.
-
-```bash
-git clone https://github.com/<계정명>/<저장소명>.git
-cd <저장소명>
-
-# 파이썬 패키지 설치
-pip install -r requirements.txt
-
-# Whisper.cpp 빌드 및 모델 다운로드
-# (모델 파일은 저장소에 포함되어 있지 않습니다)
-bash scripts/download_models.sh
-
-# 환경 변수 설정
-cp .env.example .env
-```
-
-## 9. 실행 방법
+## 8. 실행 방법
 ```bash
 # 서버 실행 (파일명은 실제 코드에 맞게 수정)
-uvicorn src.main:app --host 0.0.0.0 --port 8000
+uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 브라우저에서 `http://<라즈베리파이 IP>:8000` 으로 접속합니다.
 
-## 10. 프로젝트 구조
+## 9. 프로젝트 구조
 ```
 ├── README.md
-├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 ├── .env.example
@@ -86,17 +67,12 @@ uvicorn src.main:app --host 0.0.0.0 --port 8000
 └── scripts/      # 모델 다운로드, 실행 스크립트
 ```
 
-## 11. 한계점 및 향후 개선 방향
+## 10. 한계점 및 향후 개선 방향
 - 다화자 지원 확대, 모델 경량화, 인증 및 HTTPS 적용으로 확장 가능
 - 회의 기록 자동화로 기록 부담 감소, 화자별 발언과 할 일 분리로 회의 후 업무 파악 시간 단축 기대
 
-## 12. 팀원
+## 11. 팀원
 | 역할 | 이름 |
 |---|---|
 | 지도교수 | 김태홍 |
 | 참여학생 | 우두윤, 강찬주 |
-
-## 13. 라이선스
-[MIT License](LICENSE)
-
-이 프로젝트는 Whisper.cpp 등 오픈소스 소프트웨어를 사용합니다. 각 라이선스는 해당 프로젝트를 따릅니다.
