@@ -2,7 +2,8 @@
 
 > 라즈베리파이 기반 화자 분리 · 음성 인식(STT) · 회의 요약 · To-Do 자동 생성
 
-![메인 화면](docs/images/main.png)
+<img width="784" height="373" alt="메인화면" src="https://github.com/user-attachments/assets/45a20dc6-1658-41f4-80e1-ce0a5dbf751d" />
+
 
 ## 1. 프로젝트 소개
 회의 음성을 자동으로 녹음·분석하여 **화자별 회의록, 요약, 할 일(To-Do)** 을 웹 화면으로 제공하는 저비용 임베디드 회의 분석 시스템입니다. 클라우드 의존 없이 라즈베리파이 환경에서 동작하도록 구현했습니다.
@@ -47,6 +48,9 @@
 | 화자 분리 정확도 | 60~65% |
 | 병렬처리 효과 | 처리시간 약 100초 단축 |
 | VAD 적용 효과 | 화자 분리 성능 약 13% → 약 68% |
+<img width="453" height="232" alt="성능비교12" src="https://github.com/user-attachments/assets/fed41f3d-b7c5-4a1e-b470-4a0f624b61bb" />
+<img width="446" height="186" alt="성능비교1" src="https://github.com/user-attachments/assets/f3f19fbd-edf9-4380-bc10-fc2cf27e7b95" />
+
 
 ## 8. 실행 방법
 ```bash
