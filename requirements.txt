@@ -1,1 +1,10 @@
-
+fastapi
+uvicorn
+python-multipart
+numpy
+librosa
+noisereduce
+pydub
+scikit-learn
+webrtcvad
+RPi.GPIO
